@@ -1,0 +1,11 @@
+import java.util.*;
+
+class Frequency {
+    public static void main(String[] args) {
+        int[] a={1,2,2,3,3,3};
+        Map<Integer,Integer> map=new HashMap<>();
+        for(int x:a)
+            map.put(x,map.getOrDefault(x,0)+1);
+        System.out.println(map);
+    }
+}
