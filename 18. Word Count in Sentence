@@ -1,0 +1,6 @@
+class WordCount {
+    public static void main(String[] args) {
+        String s="Java is powerful";
+        System.out.println(s.split(" ").length);
+    }
+}
