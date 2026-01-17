@@ -1,0 +1,11 @@
+class LongestWord {
+    public static void main(String[] args) {
+        String s="Artificial Intelligence and Machine Learning";
+        String[] w=s.split(" ");
+        String max=w[0];
+        for(String x:w)
+            if(x.length()>max.length())
+                max=x;
+        System.out.println(max);
+    }
+}
